@@ -1,0 +1,90 @@
+wandb_version: 1
+
+T_max:
+  desc: null
+  value: 50
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.8.26
+    framework: torch
+    is_jupyter_run: true
+    python_version: 3.8.5
+_wandb_kernel:
+  desc: null
+  value: nakama
+apex:
+  desc: null
+  value: false
+batch_scheduler:
+  desc: null
+  value: false
+batch_size:
+  desc: null
+  value: 128
+cate_seq_cols:
+  desc: null
+  value:
+  - R
+  - C
+competition:
+  desc: null
+  value: ventilator
+cont_seq_cols:
+  desc: null
+  value:
+  - time_step
+  - u_in
+  - u_out
+  - breath_time
+  - u_in_time
+epochs:
+  desc: null
+  value: 6
+gradient_accumulation_steps:
+  desc: null
+  value: 1
+hidden_size:
+  desc: null
+  value: 64
+inference:
+  desc: null
+  value: true
+lr:
+  desc: null
+  value: 0.007
+max_grad_norm:
+  desc: null
+  value: 1000
+min_lr:
+  desc: null
+  value: 2.0e-06
+model_name:
+  desc: null
+  value: rnn
+n_fold:
+  desc: null
+  value: 5
+num_workers:
+  desc: null
+  value: 10
+print_freq:
+  desc: null
+  value: 100
+scheduler:
+  desc: null
+  value: CosineAnnealingLR
+train:
+  desc: null
+  value: true
+trn_fold:
+  desc: null
+  value:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+weight_decay:
+  desc: null
+  value: 1.0e-06

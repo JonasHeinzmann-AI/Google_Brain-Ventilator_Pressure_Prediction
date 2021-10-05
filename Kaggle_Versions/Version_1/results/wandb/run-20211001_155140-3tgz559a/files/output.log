@@ -1,0 +1,481 @@
+CondaEnvException: Unable to determine environment
+Please re-run this command with one of the following options:
+* Provide an environment name via --name or -n
+* Re-run this command inside an activated conda environment.
+fold
+0    1207200
+1    1207200
+2    1207200
+3    1207200
+4    1207200
+dtype: int64
+========== fold: 0 training ==========
+init LSTM(64, 64, batch_first=True, dropout=0.2, bidirectional=True)
+Epoch: [1][0/943] Elapsed 0m 0s (remain 11m 57s) Loss: 42.1867(42.1867) Grad: 30.7141  LR: 0.005000
+Epoch: [1][100/943] Elapsed 0m 10s (remain 1m 29s) Loss: 9.7079(18.5723) Grad: 27.6273  LR: 0.005000
+Epoch: [1][200/943] Elapsed 0m 21s (remain 1m 18s) Loss: 4.5978(12.1808) Grad: 46.6698  LR: 0.005000
+Epoch: [1][300/943] Elapsed 0m 31s (remain 1m 7s) Loss: 3.6194(9.5902) Grad: 30.7479  LR: 0.005000
+Epoch: [1][400/943] Elapsed 0m 42s (remain 0m 56s) Loss: 3.5849(8.2343) Grad: 15.6006  LR: 0.005000
+Epoch: [1][500/943] Elapsed 0m 52s (remain 0m 46s) Loss: 4.8776(7.3472) Grad: 49.1285  LR: 0.005000
+Epoch: [1][600/943] Elapsed 1m 2s (remain 0m 35s) Loss: 3.1692(6.7095) Grad: 16.0577  LR: 0.005000
+Epoch: [1][700/943] Elapsed 1m 13s (remain 0m 25s) Loss: 3.2046(6.2384) Grad: 18.0597  LR: 0.005000
+Epoch: [1][800/943] Elapsed 1m 23s (remain 0m 14s) Loss: 3.6701(5.8619) Grad: 24.2422  LR: 0.005000
+Epoch: [1][900/943] Elapsed 1m 33s (remain 0m 4s) Loss: 3.3513(5.5797) Grad: 29.2930  LR: 0.005000
+Epoch: [1][942/943] Elapsed 1m 37s (remain 0m 0s) Loss: 3.0061(5.4777) Grad: 36.2385  LR: 0.005000
+EVAL: [0/236] Elapsed 0m 0s (remain 1m 49s) Loss: 2.9004(2.9004)
+EVAL: [100/236] Elapsed 0m 10s (remain 0m 13s) Loss: 2.6986(2.8450)
+EVAL: [200/236] Elapsed 0m 19s (remain 0m 3s) Loss: 2.8328(2.8324)
+Epoch 1 - avg_train_loss: 5.4777  avg_val_loss: 2.8339  time: 120s
+Epoch 1 - MAE Score (without expiratory phase): 1.2079
+Epoch 1 - Save Best Score: 1.2079 Model
+EVAL: [235/236] Elapsed 0m 22s (remain 0m 0s) Loss: 2.4933(2.8339)
+Epoch: [2][0/943] Elapsed 0m 0s (remain 8m 33s) Loss: 2.8398(2.8398) Grad: 17.6497  LR: 0.004990
+Epoch: [2][100/943] Elapsed 0m 10s (remain 1m 30s) Loss: 4.1900(3.2174) Grad: 65.8356  LR: 0.004990
+Epoch: [2][200/943] Elapsed 0m 21s (remain 1m 20s) Loss: 2.9325(3.2332) Grad: 17.1712  LR: 0.004990
+Epoch: [2][300/943] Elapsed 0m 32s (remain 1m 9s) Loss: 3.4572(3.1972) Grad: 26.8499  LR: 0.004990
+Epoch: [2][400/943] Elapsed 0m 42s (remain 0m 57s) Loss: 2.8838(3.1867) Grad: 40.7367  LR: 0.004990
+Epoch: [2][500/943] Elapsed 0m 53s (remain 0m 47s) Loss: 2.8084(3.1564) Grad: 18.4096  LR: 0.004990
+Epoch: [2][600/943] Elapsed 1m 4s (remain 0m 36s) Loss: 3.4701(3.1189) Grad: 47.9236  LR: 0.004990
+Epoch: [2][700/943] Elapsed 1m 14s (remain 0m 25s) Loss: 2.7224(3.0776) Grad: 28.0150  LR: 0.004990
+Epoch: [2][800/943] Elapsed 1m 25s (remain 0m 15s) Loss: 3.5705(3.0570) Grad: 35.5448  LR: 0.004990
+Epoch: [2][900/943] Elapsed 1m 35s (remain 0m 4s) Loss: 3.1189(3.0388) Grad: 32.4259  LR: 0.004990
+Epoch: [2][942/943] Elapsed 1m 39s (remain 0m 0s) Loss: 2.8176(3.0290) Grad: 24.7272  LR: 0.004990
+EVAL: [0/236] Elapsed 0m 0s (remain 2m 20s) Loss: 2.7802(2.7802)
+EVAL: [100/236] Elapsed 0m 10s (remain 0m 13s) Loss: 2.3005(2.5240)
+EVAL: [200/236] Elapsed 0m 20s (remain 0m 3s) Loss: 2.5453(2.5055)
+Epoch 2 - avg_train_loss: 3.0290  avg_val_loss: 2.5013  time: 123s
+Epoch 2 - MAE Score (without expiratory phase): 1.0566
+Epoch 2 - Save Best Score: 1.0566 Model
+EVAL: [235/236] Elapsed 0m 22s (remain 0m 0s) Loss: 2.3272(2.5013)
+Epoch: [3][0/943] Elapsed 0m 0s (remain 9m 35s) Loss: 2.6754(2.6754) Grad: 10.9325  LR: 0.004966
+Epoch: [3][100/943] Elapsed 0m 11s (remain 1m 32s) Loss: 2.4597(2.7982) Grad: 25.5816  LR: 0.004966
+Epoch: [3][200/943] Elapsed 0m 22s (remain 1m 21s) Loss: 2.5997(2.8158) Grad: 19.4485  LR: 0.004966
+Epoch: [3][300/943] Elapsed 0m 32s (remain 1m 8s) Loss: 2.5155(2.8199) Grad: 41.6341  LR: 0.004966
+Epoch: [3][400/943] Elapsed 0m 42s (remain 0m 57s) Loss: 2.8067(2.7877) Grad: 24.7639  LR: 0.004966
+Epoch: [3][500/943] Elapsed 0m 53s (remain 0m 46s) Loss: 2.3341(2.7921) Grad: 30.9253  LR: 0.004966
+Epoch: [3][600/943] Elapsed 1m 3s (remain 0m 36s) Loss: 2.3596(2.7797) Grad: 19.9531  LR: 0.004966
+Epoch: [3][700/943] Elapsed 1m 13s (remain 0m 25s) Loss: 2.8235(2.7635) Grad: 26.3375  LR: 0.004966
+Epoch: [3][800/943] Elapsed 1m 24s (remain 0m 15s) Loss: 2.9239(2.7543) Grad: 53.8313  LR: 0.004966
+Epoch: [3][900/943] Elapsed 1m 35s (remain 0m 4s) Loss: 2.4944(2.7506) Grad: 24.1032  LR: 0.004966
+Epoch: [3][942/943] Elapsed 1m 39s (remain 0m 0s) Loss: 2.4675(2.7462) Grad: 19.8489  LR: 0.004966
+EVAL: [0/236] Elapsed 0m 0s (remain 2m 10s) Loss: 2.7629(2.7629)
+EVAL: [100/236] Elapsed 0m 10s (remain 0m 13s) Loss: 2.3428(2.5309)
+EVAL: [200/236] Elapsed 0m 19s (remain 0m 3s) Loss: 2.4814(2.5212)
+Epoch 3 - avg_train_loss: 2.7462  avg_val_loss: 2.5222  time: 122s
+Epoch 3 - MAE Score (without expiratory phase): 1.0706
+EVAL: [235/236] Elapsed 0m 22s (remain 0m 0s) Loss: 2.2498(2.5222)
+Epoch: [4][0/943] Elapsed 0m 0s (remain 9m 58s) Loss: 2.6459(2.6459) Grad: 26.1202  LR: 0.004931
+Epoch: [4][100/943] Elapsed 0m 11s (remain 1m 32s) Loss: 2.7742(2.6367) Grad: 48.0183  LR: 0.004931
+Epoch: [4][200/943] Elapsed 0m 21s (remain 1m 18s) Loss: 2.7692(2.6878) Grad: 31.7675  LR: 0.004931
+Epoch: [4][300/943] Elapsed 0m 32s (remain 1m 9s) Loss: 2.3346(2.6580) Grad: 13.1237  LR: 0.004931
+Epoch: [4][400/943] Elapsed 0m 42s (remain 0m 57s) Loss: 2.3820(2.6475) Grad: 23.9667  LR: 0.004931
+Epoch: [4][500/943] Elapsed 0m 52s (remain 0m 46s) Loss: 2.5304(2.6387) Grad: 19.7815  LR: 0.004931
+Epoch: [4][600/943] Elapsed 1m 3s (remain 0m 36s) Loss: 2.4686(2.6174) Grad: 25.6206  LR: 0.004931
+Epoch: [4][700/943] Elapsed 1m 14s (remain 0m 25s) Loss: 2.9435(2.6065) Grad: 40.1243  LR: 0.004931
+Epoch: [4][800/943] Elapsed 1m 24s (remain 0m 15s) Loss: 2.4503(2.6049) Grad: 41.1149  LR: 0.004931
+Epoch: [4][900/943] Elapsed 1m 35s (remain 0m 4s) Loss: 2.7686(2.5927) Grad: 25.2786  LR: 0.004931
+Epoch: [4][942/943] Elapsed 1m 40s (remain 0m 0s) Loss: 2.5061(2.5912) Grad: 18.1527  LR: 0.004931
+EVAL: [0/236] Elapsed 0m 0s (remain 1m 41s) Loss: 2.7175(2.7175)
+EVAL: [100/236] Elapsed 0m 9s (remain 0m 13s) Loss: 2.4780(2.5179)
+EVAL: [200/236] Elapsed 0m 19s (remain 0m 3s) Loss: 2.6763(2.5137)
+Epoch 4 - avg_train_loss: 2.5912  avg_val_loss: 2.5120  time: 123s
+Epoch 4 - MAE Score (without expiratory phase): 1.0669
+EVAL: [235/236] Elapsed 0m 22s (remain 0m 0s) Loss: 2.1833(2.5120)
+Epoch: [5][0/943] Elapsed 0m 0s (remain 10m 22s) Loss: 2.5153(2.5153) Grad: 11.8622  LR: 0.004887
+Epoch: [5][100/943] Elapsed 0m 11s (remain 1m 37s) Loss: 2.1482(2.4136) Grad: 23.2927  LR: 0.004887
+Epoch: [5][200/943] Elapsed 0m 21s (remain 1m 21s) Loss: 2.3950(2.4319) Grad: 16.9098  LR: 0.004887
+Epoch: [5][300/943] Elapsed 0m 32s (remain 1m 8s) Loss: 2.5393(2.4478) Grad: 14.8522  LR: 0.004887
+Epoch: [5][400/943] Elapsed 0m 43s (remain 0m 58s) Loss: 2.6997(2.4686) Grad: 13.3489  LR: 0.004887
+Epoch: [5][500/943] Elapsed 0m 53s (remain 0m 47s) Loss: 2.3389(2.4615) Grad: 24.4503  LR: 0.004887
+Epoch: [5][600/943] Elapsed 1m 3s (remain 0m 36s) Loss: 2.7295(2.4578) Grad: 26.6912  LR: 0.004887
+Epoch: [5][700/943] Elapsed 1m 15s (remain 0m 25s) Loss: 2.2081(2.4553) Grad: 28.4857  LR: 0.004887
+Epoch: [5][800/943] Elapsed 1m 25s (remain 0m 15s) Loss: 2.4302(2.4610) Grad: 27.1537  LR: 0.004887
+Epoch: [5][900/943] Elapsed 1m 35s (remain 0m 4s) Loss: 2.6684(2.4609) Grad: 41.1146  LR: 0.004887
+Epoch: [5][942/943] Elapsed 1m 39s (remain 0m 0s) Loss: 2.7226(2.4617) Grad: 32.8421  LR: 0.004887
+EVAL: [0/236] Elapsed 0m 0s (remain 2m 30s) Loss: 2.7068(2.7068)
+EVAL: [100/236] Elapsed 0m 10s (remain 0m 14s) Loss: 2.2978(2.4974)
+EVAL: [200/236] Elapsed 0m 20s (remain 0m 3s) Loss: 2.7814(2.5036)
+Epoch 5 - avg_train_loss: 2.4617  avg_val_loss: 2.4972  time: 123s
+Epoch 5 - MAE Score (without expiratory phase): 1.0711
+EVAL: [235/236] Elapsed 0m 23s (remain 0m 0s) Loss: 2.1358(2.4972)
+========== fold: 0 result ==========
+Score (without expiratory phase): 1.0566
+========== fold: 1 training ==========
+init LSTM(64, 64, batch_first=True, dropout=0.2, bidirectional=True)
+Epoch: [1][0/943] Elapsed 0m 0s (remain 11m 10s) Loss: 40.6649(40.6649) Grad: 32.7730  LR: 0.005000
+Epoch: [1][100/943] Elapsed 0m 11s (remain 1m 33s) Loss: 8.8900(18.2360) Grad: 33.5683  LR: 0.005000
+Epoch: [1][200/943] Elapsed 0m 23s (remain 1m 25s) Loss: 4.1570(12.2521) Grad: 11.4235  LR: 0.005000
+Epoch: [1][300/943] Elapsed 0m 33s (remain 1m 11s) Loss: 4.2139(9.7017) Grad: 33.2866  LR: 0.005000
+Epoch: [1][400/943] Elapsed 0m 44s (remain 0m 59s) Loss: 4.1826(8.3398) Grad: 15.8234  LR: 0.005000
+Epoch: [1][500/943] Elapsed 0m 54s (remain 0m 48s) Loss: 3.6243(7.4843) Grad: 16.8049  LR: 0.005000
+Epoch: [1][600/943] Elapsed 1m 5s (remain 0m 37s) Loss: 3.8209(6.8699) Grad: 16.9263  LR: 0.005000
+Epoch: [1][700/943] Elapsed 1m 16s (remain 0m 26s) Loss: 3.8861(6.4025) Grad: 17.2260  LR: 0.005000
+Epoch: [1][800/943] Elapsed 1m 26s (remain 0m 15s) Loss: 3.3919(6.0298) Grad: 31.5657  LR: 0.005000
+Epoch: [1][900/943] Elapsed 1m 37s (remain 0m 4s) Loss: 3.2593(5.7302) Grad: 25.8188  LR: 0.005000
+Epoch: [1][942/943] Elapsed 1m 41s (remain 0m 0s) Loss: 2.9317(5.6200) Grad: 20.5836  LR: 0.005000
+EVAL: [0/236] Elapsed 0m 0s (remain 2m 29s) Loss: 3.0537(3.0537)
+EVAL: [100/236] Elapsed 0m 10s (remain 0m 13s) Loss: 3.0584(3.0794)
+EVAL: [200/236] Elapsed 0m 20s (remain 0m 3s) Loss: 2.6233(3.0734)
+Epoch 1 - avg_train_loss: 5.6200  avg_val_loss: 3.0659  time: 126s
+Epoch 1 - MAE Score (without expiratory phase): 1.3133
+Epoch 1 - Save Best Score: 1.3133 Model
+EVAL: [235/236] Elapsed 0m 23s (remain 0m 0s) Loss: 2.8471(3.0659)
+Epoch: [2][0/943] Elapsed 0m 0s (remain 12m 12s) Loss: 3.0050(3.0050) Grad: 15.7754  LR: 0.004990
+Epoch: [2][100/943] Elapsed 0m 13s (remain 1m 48s) Loss: 3.0565(3.2661) Grad: 13.5328  LR: 0.004990
+Epoch: [2][200/943] Elapsed 0m 23s (remain 1m 25s) Loss: 2.7382(3.1728) Grad: 10.9619  LR: 0.004990
+Epoch: [2][300/943] Elapsed 0m 33s (remain 1m 11s) Loss: 3.3799(3.1812) Grad: 57.4963  LR: 0.004990
+Epoch: [2][400/943] Elapsed 0m 44s (remain 1m 0s) Loss: 2.5654(3.1795) Grad: 11.3501  LR: 0.004990
+Epoch: [2][500/943] Elapsed 0m 54s (remain 0m 48s) Loss: 3.1890(3.1620) Grad: 21.6634  LR: 0.004990
+Epoch: [2][600/943] Elapsed 1m 4s (remain 0m 36s) Loss: 2.8888(3.1285) Grad: 20.5852  LR: 0.004990
+Epoch: [2][700/943] Elapsed 1m 16s (remain 0m 26s) Loss: 2.9367(3.1189) Grad: 35.5556  LR: 0.004990
+Epoch: [2][800/943] Elapsed 1m 26s (remain 0m 15s) Loss: 3.0549(3.0938) Grad: 13.7643  LR: 0.004990
+Epoch: [2][900/943] Elapsed 1m 36s (remain 0m 4s) Loss: 2.9552(3.0687) Grad: 22.4668  LR: 0.004990
+Epoch: [2][942/943] Elapsed 1m 41s (remain 0m 0s) Loss: 2.8204(3.0556) Grad: 12.2342  LR: 0.004990
+EVAL: [0/236] Elapsed 0m 0s (remain 2m 24s) Loss: 2.5647(2.5647)
+EVAL: [100/236] Elapsed 0m 11s (remain 0m 15s) Loss: 2.4298(2.6645)
+EVAL: [200/236] Elapsed 0m 20s (remain 0m 3s) Loss: 2.4661(2.6587)
+Epoch 2 - avg_train_loss: 3.0556  avg_val_loss: 2.6524  time: 125s
+Epoch 2 - MAE Score (without expiratory phase): 1.1204
+Epoch 2 - Save Best Score: 1.1204 Model
+EVAL: [235/236] Elapsed 0m 23s (remain 0m 0s) Loss: 2.1541(2.6524)
+Epoch: [3][0/943] Elapsed 0m 0s (remain 9m 40s) Loss: 2.5815(2.5815) Grad: 26.3065  LR: 0.004966
+Epoch: [3][100/943] Elapsed 0m 11s (remain 1m 39s) Loss: 3.2719(2.9101) Grad: 23.5375  LR: 0.004966
+Epoch: [3][200/943] Elapsed 0m 22s (remain 1m 24s) Loss: 2.8199(2.8627) Grad: 14.2249  LR: 0.004966
+Epoch: [3][300/943] Elapsed 0m 33s (remain 1m 11s) Loss: 2.5432(2.8617) Grad: 16.0540  LR: 0.004966
+Epoch: [3][400/943] Elapsed 0m 43s (remain 0m 59s) Loss: 2.3988(2.8336) Grad: 14.5604  LR: 0.004966
+Epoch: [3][500/943] Elapsed 0m 54s (remain 0m 48s) Loss: 2.5525(2.8131) Grad: 27.7921  LR: 0.004966
+Epoch: [3][600/943] Elapsed 1m 5s (remain 0m 37s) Loss: 2.6923(2.7931) Grad: 21.8772  LR: 0.004966
+Epoch: [3][700/943] Elapsed 1m 15s (remain 0m 26s) Loss: 2.6097(2.7963) Grad: 16.5969  LR: 0.004966
+Epoch: [3][800/943] Elapsed 1m 26s (remain 0m 15s) Loss: 2.5648(2.7765) Grad: 13.1952  LR: 0.004966
+Epoch: [3][900/943] Elapsed 1m 37s (remain 0m 4s) Loss: 2.5775(2.7629) Grad: 10.9104  LR: 0.004966
+Epoch: [3][942/943] Elapsed 1m 41s (remain 0m 0s) Loss: 3.1753(2.7767) Grad: 32.5954  LR: 0.004966
+EVAL: [0/236] Elapsed 0m 0s (remain 2m 21s) Loss: 3.4599(3.4599)
+EVAL: [100/236] Elapsed 0m 11s (remain 0m 14s) Loss: 2.9039(3.3294)
+EVAL: [200/236] Elapsed 0m 21s (remain 0m 3s) Loss: 3.0890(3.3255)
+Epoch 3 - avg_train_loss: 2.7767  avg_val_loss: 3.3212  time: 126s
+Epoch 3 - MAE Score (without expiratory phase): 1.3632
+EVAL: [235/236] Elapsed 0m 24s (remain 0m 0s) Loss: 3.1212(3.3212)
+Epoch: [4][0/943] Elapsed 0m 0s (remain 10m 3s) Loss: 3.7564(3.7564) Grad: 32.6372  LR: 0.004931
+Epoch: [4][100/943] Elapsed 0m 12s (remain 1m 42s) Loss: 3.2006(2.7453) Grad: 42.2569  LR: 0.004931
+Epoch: [4][200/943] Elapsed 0m 22s (remain 1m 24s) Loss: 2.7713(2.7363) Grad: 16.6093  LR: 0.004931
+Epoch: [4][300/943] Elapsed 0m 33s (remain 1m 11s) Loss: 2.5012(2.7325) Grad: 32.8270  LR: 0.004931
+Epoch: [4][400/943] Elapsed 0m 44s (remain 0m 59s) Loss: 2.3736(2.7269) Grad: 18.1685  LR: 0.004931
+Epoch: [4][500/943] Elapsed 0m 54s (remain 0m 48s) Loss: 2.2597(2.7138) Grad: 20.2498  LR: 0.004931
+Epoch: [4][600/943] Elapsed 1m 5s (remain 0m 37s) Loss: 2.5945(2.6931) Grad: 19.5747  LR: 0.004931
+Epoch: [4][700/943] Elapsed 1m 15s (remain 0m 26s) Loss: 2.7275(2.6877) Grad: 9.4550  LR: 0.004931
+Epoch: [4][800/943] Elapsed 1m 26s (remain 0m 15s) Loss: 2.4632(2.6704) Grad: 24.1286  LR: 0.004931
+Epoch: [4][900/943] Elapsed 1m 36s (remain 0m 4s) Loss: 2.6116(2.6584) Grad: 11.1030  LR: 0.004931
+Epoch: [4][942/943] Elapsed 1m 41s (remain 0m 0s) Loss: 2.2406(2.6526) Grad: 27.4363  LR: 0.004931
+EVAL: [0/236] Elapsed 0m 0s (remain 2m 53s) Loss: 2.4571(2.4571)
+EVAL: [100/236] Elapsed 0m 10s (remain 0m 14s) Loss: 1.9820(2.4164)
+EVAL: [200/236] Elapsed 0m 20s (remain 0m 3s) Loss: 2.2324(2.4134)
+Epoch 4 - avg_train_loss: 2.6526  avg_val_loss: 2.4122  time: 125s
+Epoch 4 - MAE Score (without expiratory phase): 1.0191
+Epoch 4 - Save Best Score: 1.0191 Model
+EVAL: [235/236] Elapsed 0m 23s (remain 0m 0s) Loss: 2.1895(2.4122)
+Epoch: [5][0/943] Elapsed 0m 0s (remain 9m 57s) Loss: 2.8148(2.8148) Grad: 17.6659  LR: 0.004887
+Epoch: [5][100/943] Elapsed 0m 12s (remain 1m 47s) Loss: 2.8079(2.5191) Grad: 15.4337  LR: 0.004887
+Epoch: [5][200/943] Elapsed 0m 23s (remain 1m 25s) Loss: 2.8311(2.5845) Grad: 13.2728  LR: 0.004887
+Epoch: [5][300/943] Elapsed 0m 33s (remain 1m 12s) Loss: 2.2487(2.5940) Grad: 10.3432  LR: 0.004887
+Epoch: [5][400/943] Elapsed 0m 44s (remain 1m 0s) Loss: 2.1664(2.5728) Grad: 12.2224  LR: 0.004887
+Epoch: [5][500/943] Elapsed 0m 54s (remain 0m 48s) Loss: 2.6313(2.5467) Grad: 15.0186  LR: 0.004887
+Epoch: [5][600/943] Elapsed 1m 5s (remain 0m 37s) Loss: 2.4140(2.5359) Grad: 27.6948  LR: 0.004887
+Epoch: [5][700/943] Elapsed 1m 16s (remain 0m 26s) Loss: 2.5033(2.5316) Grad: 22.0928  LR: 0.004887
+Epoch: [5][800/943] Elapsed 1m 26s (remain 0m 15s) Loss: 2.3865(2.5250) Grad: 11.0476  LR: 0.004887
+Epoch: [5][900/943] Elapsed 1m 36s (remain 0m 4s) Loss: 2.9295(2.5100) Grad: 41.2158  LR: 0.004887
+Epoch: [5][942/943] Elapsed 1m 41s (remain 0m 0s) Loss: 2.2532(2.5038) Grad: 23.6750  LR: 0.004887
+EVAL: [0/236] Elapsed 0m 0s (remain 2m 1s) Loss: 1.9510(1.9510)
+EVAL: [100/236] Elapsed 0m 11s (remain 0m 15s) Loss: 1.9256(2.1032)
+EVAL: [200/236] Elapsed 0m 21s (remain 0m 3s) Loss: 1.9864(2.1004)
+EVAL: [235/236] Elapsed 0m 24s (remain 0m 0s) Loss: 1.8571(2.0980)
+Epoch 5 - avg_train_loss: 2.5038  avg_val_loss: 2.0980  time: 126s
+Epoch 5 - MAE Score (without expiratory phase): 0.8657
+Epoch 5 - Save Best Score: 0.8657 Model
+========== fold: 1 result ==========
+Score (without expiratory phase): 0.8657
+========== fold: 2 training ==========
+init LSTM(64, 64, batch_first=True, dropout=0.2, bidirectional=True)
+Epoch: [1][0/943] Elapsed 0m 0s (remain 10m 14s) Loss: 40.3659(40.3659) Grad: 33.8306  LR: 0.005000
+Epoch: [1][100/943] Elapsed 0m 11s (remain 1m 38s) Loss: 9.9094(19.0673) Grad: 10.1909  LR: 0.005000
+Epoch: [1][200/943] Elapsed 0m 23s (remain 1m 26s) Loss: 5.2173(13.0902) Grad: 32.6172  LR: 0.005000
+Epoch: [1][300/943] Elapsed 0m 34s (remain 1m 12s) Loss: 5.4281(10.3210) Grad: 53.7542  LR: 0.005000
+Epoch: [1][400/943] Elapsed 0m 45s (remain 1m 0s) Loss: 4.5999(8.8160) Grad: 28.4809  LR: 0.005000
+Epoch: [1][500/943] Elapsed 0m 55s (remain 0m 48s) Loss: 3.7763(7.8312) Grad: 8.3039  LR: 0.005000
+Epoch: [1][600/943] Elapsed 1m 5s (remain 0m 37s) Loss: 3.4109(7.1357) Grad: 27.4168  LR: 0.005000
+Epoch: [1][700/943] Elapsed 1m 16s (remain 0m 26s) Loss: 3.9672(6.6188) Grad: 54.3884  LR: 0.005000
+Epoch: [1][800/943] Elapsed 1m 27s (remain 0m 15s) Loss: 2.9888(6.2394) Grad: 26.1984  LR: 0.005000
+Epoch: [1][900/943] Elapsed 1m 38s (remain 0m 4s) Loss: 3.4237(5.9254) Grad: 23.0905  LR: 0.005000
+Epoch: [1][942/943] Elapsed 1m 42s (remain 0m 0s) Loss: 3.8660(5.8112) Grad: 28.2182  LR: 0.005000
+EVAL: [0/236] Elapsed 0m 0s (remain 2m 6s) Loss: 3.0541(3.0541)
+EVAL: [100/236] Elapsed 0m 10s (remain 0m 14s) Loss: 3.1940(3.1106)
+EVAL: [200/236] Elapsed 0m 21s (remain 0m 3s) Loss: 3.1186(3.1077)
+Epoch 1 - avg_train_loss: 5.8112  avg_val_loss: 3.1253  time: 127s
+Epoch 1 - MAE Score (without expiratory phase): 1.3424
+Epoch 1 - Save Best Score: 1.3424 Model
+EVAL: [235/236] Elapsed 0m 24s (remain 0m 0s) Loss: 2.6675(3.1253)
+Epoch: [2][0/943] Elapsed 0m 0s (remain 10m 48s) Loss: 2.7351(2.7351) Grad: 11.5120  LR: 0.004990
+Epoch: [2][100/943] Elapsed 0m 10s (remain 1m 31s) Loss: 3.6732(3.2526) Grad: 44.2011  LR: 0.004990
+Epoch: [2][200/943] Elapsed 0m 22s (remain 1m 23s) Loss: 3.7103(3.2733) Grad: 49.2401  LR: 0.004990
+Epoch: [2][300/943] Elapsed 0m 33s (remain 1m 10s) Loss: 3.1286(3.2394) Grad: 14.2439  LR: 0.004990
+Epoch: [2][400/943] Elapsed 0m 43s (remain 0m 59s) Loss: 3.0220(3.1960) Grad: 8.9514  LR: 0.004990
+Epoch: [2][500/943] Elapsed 0m 55s (remain 0m 48s) Loss: 2.4585(3.1709) Grad: 16.6718  LR: 0.004990
+Epoch: [2][600/943] Elapsed 1m 5s (remain 0m 37s) Loss: 2.8849(3.1306) Grad: 10.0225  LR: 0.004990
+Epoch: [2][700/943] Elapsed 1m 15s (remain 0m 26s) Loss: 3.2468(3.1384) Grad: 11.8507  LR: 0.004990
+Epoch: [2][800/943] Elapsed 1m 26s (remain 0m 15s) Loss: 2.3368(3.1077) Grad: 12.1662  LR: 0.004990
+Epoch: [2][900/943] Elapsed 1m 37s (remain 0m 4s) Loss: 3.3404(3.0879) Grad: 37.2362  LR: 0.004990
+Epoch: [2][942/943] Elapsed 1m 41s (remain 0m 0s) Loss: 3.1057(3.0799) Grad: 41.8820  LR: 0.004990
+EVAL: [0/236] Elapsed 0m 0s (remain 2m 18s) Loss: 2.6538(2.6538)
+EVAL: [100/236] Elapsed 0m 9s (remain 0m 13s) Loss: 2.9798(2.8444)
+EVAL: [200/236] Elapsed 0m 21s (remain 0m 3s) Loss: 2.6692(2.8428)
+Epoch 2 - avg_train_loss: 3.0799  avg_val_loss: 2.8627  time: 125s
+Epoch 2 - MAE Score (without expiratory phase): 1.2171
+Epoch 2 - Save Best Score: 1.2171 Model
+EVAL: [235/236] Elapsed 0m 23s (remain 0m 0s) Loss: 2.6264(2.8627)
+Epoch: [3][0/943] Elapsed 0m 0s (remain 10m 6s) Loss: 2.7022(2.7022) Grad: 43.0610  LR: 0.004966
+Epoch: [3][100/943] Elapsed 0m 11s (remain 1m 33s) Loss: 2.8790(2.9148) Grad: 28.3552  LR: 0.004966
+Epoch: [3][200/943] Elapsed 0m 22s (remain 1m 23s) Loss: 2.7406(2.9023) Grad: 17.7071  LR: 0.004966
+Epoch: [3][300/943] Elapsed 0m 33s (remain 1m 11s) Loss: 2.7073(2.8673) Grad: 20.1235  LR: 0.004966
+Epoch: [3][400/943] Elapsed 0m 43s (remain 0m 59s) Loss: 2.4932(2.8403) Grad: 19.8048  LR: 0.004966
+Epoch: [3][500/943] Elapsed 0m 54s (remain 0m 47s) Loss: 2.7420(2.8262) Grad: 13.0091  LR: 0.004966
+Epoch: [3][600/943] Elapsed 1m 5s (remain 0m 37s) Loss: 3.4887(2.8367) Grad: 38.3555  LR: 0.004966
+Epoch: [3][700/943] Elapsed 1m 15s (remain 0m 26s) Loss: 2.5537(2.8250) Grad: 17.2538  LR: 0.004966
+Epoch: [3][800/943] Elapsed 1m 26s (remain 0m 15s) Loss: 2.5210(2.8070) Grad: 7.5837  LR: 0.004966
+Epoch: [3][900/943] Elapsed 1m 36s (remain 0m 4s) Loss: 2.5987(2.7892) Grad: 32.1836  LR: 0.004966
+Epoch: [3][942/943] Elapsed 1m 41s (remain 0m 0s) Loss: 2.7237(2.7853) Grad: 8.9551  LR: 0.004966
+EVAL: [0/236] Elapsed 0m 0s (remain 2m 22s) Loss: 2.4094(2.4094)
+EVAL: [100/236] Elapsed 0m 10s (remain 0m 14s) Loss: 2.4538(2.4572)
+EVAL: [200/236] Elapsed 0m 20s (remain 0m 3s) Loss: 2.6667(2.4408)
+Epoch 3 - avg_train_loss: 2.7853  avg_val_loss: 2.4514  time: 126s
+Epoch 3 - MAE Score (without expiratory phase): 1.0274
+Epoch 3 - Save Best Score: 1.0274 Model
+EVAL: [235/236] Elapsed 0m 24s (remain 0m 0s) Loss: 2.0794(2.4514)
+Epoch: [4][0/943] Elapsed 0m 0s (remain 9m 18s) Loss: 2.7573(2.7573) Grad: 6.9211  LR: 0.004931
+Epoch: [4][100/943] Elapsed 0m 10s (remain 1m 31s) Loss: 2.4889(2.6568) Grad: 15.9750  LR: 0.004931
+Epoch: [4][200/943] Elapsed 0m 22s (remain 1m 22s) Loss: 2.3481(2.6712) Grad: 11.8400  LR: 0.004931
+Epoch: [4][300/943] Elapsed 0m 33s (remain 1m 10s) Loss: 2.3620(2.6570) Grad: 15.0202  LR: 0.004931
+Epoch: [4][400/943] Elapsed 0m 43s (remain 0m 59s) Loss: 3.1827(2.6533) Grad: 10.2827  LR: 0.004931
+Epoch: [4][500/943] Elapsed 0m 54s (remain 0m 47s) Loss: 2.9140(2.6630) Grad: 16.8308  LR: 0.004931
+Epoch: [4][600/943] Elapsed 1m 5s (remain 0m 37s) Loss: 2.2275(2.6528) Grad: 10.0409  LR: 0.004931
+Epoch: [4][700/943] Elapsed 1m 15s (remain 0m 26s) Loss: 2.3499(2.6372) Grad: 8.5642  LR: 0.004931
+Epoch: [4][800/943] Elapsed 1m 26s (remain 0m 15s) Loss: 2.3977(2.6265) Grad: 8.0149  LR: 0.004931
+Epoch: [4][900/943] Elapsed 1m 37s (remain 0m 4s) Loss: 2.2812(2.6245) Grad: 10.6270  LR: 0.004931
+Epoch: [4][942/943] Elapsed 1m 41s (remain 0m 0s) Loss: 2.5306(2.6226) Grad: 8.1367  LR: 0.004931
+EVAL: [0/236] Elapsed 0m 0s (remain 2m 23s) Loss: 2.7733(2.7733)
+EVAL: [100/236] Elapsed 0m 10s (remain 0m 13s) Loss: 2.6341(2.6409)
+EVAL: [200/236] Elapsed 0m 20s (remain 0m 3s) Loss: 2.7603(2.6334)
+Epoch 4 - avg_train_loss: 2.6226  avg_val_loss: 2.6492  time: 125s
+Epoch 4 - MAE Score (without expiratory phase): 1.1335
+EVAL: [235/236] Elapsed 0m 23s (remain 0m 0s) Loss: 2.3294(2.6492)
+Epoch: [5][0/943] Elapsed 0m 0s (remain 10m 5s) Loss: 2.6643(2.6643) Grad: 28.4333  LR: 0.004887
+Epoch: [5][100/943] Elapsed 0m 12s (remain 1m 44s) Loss: 2.4612(2.6977) Grad: 17.0566  LR: 0.004887
+Epoch: [5][200/943] Elapsed 0m 23s (remain 1m 25s) Loss: 2.3463(2.6142) Grad: 11.0270  LR: 0.004887
+Epoch: [5][300/943] Elapsed 0m 33s (remain 1m 11s) Loss: 2.5520(2.5901) Grad: 29.4738  LR: 0.004887
+Epoch: [5][400/943] Elapsed 0m 44s (remain 0m 59s) Loss: 3.0553(2.5646) Grad: 36.7534  LR: 0.004887
+Epoch: [5][500/943] Elapsed 0m 54s (remain 0m 48s) Loss: 2.7716(2.5673) Grad: 28.0445  LR: 0.004887
+Epoch: [5][600/943] Elapsed 1m 5s (remain 0m 36s) Loss: 2.5067(2.5517) Grad: 28.3465  LR: 0.004887
+Epoch: [5][700/943] Elapsed 1m 16s (remain 0m 26s) Loss: 2.7766(2.5515) Grad: 16.9942  LR: 0.004887
+Epoch: [5][800/943] Elapsed 1m 26s (remain 0m 15s) Loss: 2.8595(2.5517) Grad: 35.8948  LR: 0.004887
+Epoch: [5][900/943] Elapsed 1m 36s (remain 0m 4s) Loss: 2.6113(2.5473) Grad: 17.9338  LR: 0.004887
+Epoch: [5][942/943] Elapsed 1m 41s (remain 0m 0s) Loss: 2.5493(2.5409) Grad: 8.6853  LR: 0.004887
+EVAL: [0/236] Elapsed 0m 0s (remain 2m 23s) Loss: 2.1515(2.1515)
+EVAL: [100/236] Elapsed 0m 11s (remain 0m 15s) Loss: 2.2164(2.2163)
+EVAL: [200/236] Elapsed 0m 21s (remain 0m 3s) Loss: 2.4272(2.2076)
+Epoch 5 - avg_train_loss: 2.5409  avg_val_loss: 2.2168  time: 126s
+Epoch 5 - MAE Score (without expiratory phase): 0.9257
+Epoch 5 - Save Best Score: 0.9257 Model
+EVAL: [235/236] Elapsed 0m 24s (remain 0m 0s) Loss: 2.0702(2.2168)
+========== fold: 2 result ==========
+Score (without expiratory phase): 0.9257
+========== fold: 3 training ==========
+init LSTM(64, 64, batch_first=True, dropout=0.2, bidirectional=True)
+Epoch: [1][0/943] Elapsed 0m 0s (remain 10m 30s) Loss: 40.8614(40.8614) Grad: 32.3195  LR: 0.005000
+Epoch: [1][100/943] Elapsed 0m 11s (remain 1m 38s) Loss: 7.8397(17.4693) Grad: 40.8045  LR: 0.005000
+Epoch: [1][200/943] Elapsed 0m 22s (remain 1m 24s) Loss: 4.5073(11.6560) Grad: 22.9606  LR: 0.005000
+Epoch: [1][300/943] Elapsed 0m 33s (remain 1m 11s) Loss: 4.1954(9.4008) Grad: 18.5760  LR: 0.005000
+Epoch: [1][400/943] Elapsed 0m 44s (remain 1m 0s) Loss: 4.2791(8.1420) Grad: 50.6829  LR: 0.005000
+Epoch: [1][500/943] Elapsed 0m 54s (remain 0m 48s) Loss: 4.3734(7.3148) Grad: 11.7299  LR: 0.005000
+Epoch: [1][600/943] Elapsed 1m 5s (remain 0m 37s) Loss: 3.4572(6.7393) Grad: 19.6636  LR: 0.005000
+Epoch: [1][700/943] Elapsed 1m 16s (remain 0m 26s) Loss: 3.3742(6.3211) Grad: 10.0362  LR: 0.005000
+Epoch: [1][800/943] Elapsed 1m 27s (remain 0m 15s) Loss: 3.7329(5.9785) Grad: 25.4719  LR: 0.005000
+Epoch: [1][900/943] Elapsed 1m 37s (remain 0m 4s) Loss: 3.4213(5.6909) Grad: 20.7776  LR: 0.005000
+Epoch: [1][942/943] Elapsed 1m 41s (remain 0m 0s) Loss: 3.5185(5.5920) Grad: 31.9746  LR: 0.005000
+EVAL: [0/236] Elapsed 0m 0s (remain 2m 17s) Loss: 3.5360(3.5360)
+EVAL: [100/236] Elapsed 0m 10s (remain 0m 14s) Loss: 3.4912(3.4853)
+EVAL: [200/236] Elapsed 0m 21s (remain 0m 3s) Loss: 3.2135(3.4873)
+Epoch 1 - avg_train_loss: 5.5920  avg_val_loss: 3.4808  time: 126s
+Epoch 1 - MAE Score (without expiratory phase): 1.4954
+Epoch 1 - Save Best Score: 1.4954 Model
+EVAL: [235/236] Elapsed 0m 23s (remain 0m 0s) Loss: 4.1058(3.4808)
+Epoch: [2][0/943] Elapsed 0m 0s (remain 10m 32s) Loss: 3.5823(3.5823) Grad: 23.0852  LR: 0.004990
+Epoch: [2][100/943] Elapsed 0m 10s (remain 1m 31s) Loss: 3.2498(3.2133) Grad: 19.4431  LR: 0.004990
+Epoch: [2][200/943] Elapsed 0m 22s (remain 1m 24s) Loss: 3.3427(3.2210) Grad: 18.0541  LR: 0.004990
+Epoch: [2][300/943] Elapsed 0m 33s (remain 1m 11s) Loss: 3.1614(3.1903) Grad: 15.8183  LR: 0.004990
+Epoch: [2][400/943] Elapsed 0m 43s (remain 0m 59s) Loss: 2.8377(3.1691) Grad: 26.2521  LR: 0.004990
+Epoch: [2][500/943] Elapsed 0m 55s (remain 0m 48s) Loss: 3.5561(3.1479) Grad: 32.6106  LR: 0.004990
+Epoch: [2][600/943] Elapsed 1m 5s (remain 0m 37s) Loss: 2.5762(3.1281) Grad: 18.0305  LR: 0.004990
+Epoch: [2][700/943] Elapsed 1m 15s (remain 0m 26s) Loss: 3.1248(3.1142) Grad: 20.2667  LR: 0.004990
+Epoch: [2][800/943] Elapsed 1m 27s (remain 0m 15s) Loss: 2.9937(3.0933) Grad: 21.3481  LR: 0.004990
+Epoch: [2][900/943] Elapsed 1m 37s (remain 0m 4s) Loss: 3.3816(3.0724) Grad: 20.2372  LR: 0.004990
+Epoch: [2][942/943] Elapsed 1m 41s (remain 0m 0s) Loss: 3.3833(3.0641) Grad: 18.1774  LR: 0.004990
+EVAL: [0/236] Elapsed 0m 0s (remain 2m 52s) Loss: 3.0210(3.0210)
+EVAL: [100/236] Elapsed 0m 10s (remain 0m 13s) Loss: 3.2272(2.9232)
+EVAL: [200/236] Elapsed 0m 20s (remain 0m 3s) Loss: 2.7925(2.9414)
+Epoch 2 - avg_train_loss: 3.0641  avg_val_loss: 2.9401  time: 126s
+Epoch 2 - MAE Score (without expiratory phase): 1.2536
+Epoch 2 - Save Best Score: 1.2536 Model
+EVAL: [235/236] Elapsed 0m 24s (remain 0m 0s) Loss: 3.2900(2.9401)
+Epoch: [3][0/943] Elapsed 0m 0s (remain 10m 3s) Loss: 3.1620(3.1620) Grad: 15.3484  LR: 0.004966
+Epoch: [3][100/943] Elapsed 0m 11s (remain 1m 32s) Loss: 2.6533(2.8529) Grad: 24.4838  LR: 0.004966
+Epoch: [3][200/943] Elapsed 0m 23s (remain 1m 25s) Loss: 2.1057(2.8453) Grad: 20.3573  LR: 0.004966
+Epoch: [3][300/943] Elapsed 0m 33s (remain 1m 11s) Loss: 2.9326(2.9180) Grad: 26.3414  LR: 0.004966
+Epoch: [3][400/943] Elapsed 0m 43s (remain 0m 59s) Loss: 2.8233(2.9133) Grad: 10.6577  LR: 0.004966
+Epoch: [3][500/943] Elapsed 0m 54s (remain 0m 48s) Loss: 2.7080(2.8706) Grad: 16.8522  LR: 0.004966
+Epoch: [3][600/943] Elapsed 1m 5s (remain 0m 37s) Loss: 2.4667(2.8681) Grad: 12.9961  LR: 0.004966
+Epoch: [3][700/943] Elapsed 1m 16s (remain 0m 26s) Loss: 2.6202(2.8621) Grad: 25.8211  LR: 0.004966
+Epoch: [3][800/943] Elapsed 1m 27s (remain 0m 15s) Loss: 2.7592(2.8550) Grad: 19.8654  LR: 0.004966
+Epoch: [3][900/943] Elapsed 1m 37s (remain 0m 4s) Loss: 2.7711(2.8323) Grad: 12.2607  LR: 0.004966
+Epoch: [3][942/943] Elapsed 1m 41s (remain 0m 0s) Loss: 2.7121(2.8270) Grad: 16.2466  LR: 0.004966
+EVAL: [0/236] Elapsed 0m 0s (remain 2m 31s) Loss: 2.7924(2.7924)
+EVAL: [100/236] Elapsed 0m 9s (remain 0m 13s) Loss: 2.4873(2.4419)
+EVAL: [200/236] Elapsed 0m 21s (remain 0m 3s) Loss: 2.1780(2.4754)
+Epoch 3 - avg_train_loss: 2.8270  avg_val_loss: 2.4716  time: 126s
+Epoch 3 - MAE Score (without expiratory phase): 1.0498
+Epoch 3 - Save Best Score: 1.0498 Model
+EVAL: [235/236] Elapsed 0m 23s (remain 0m 0s) Loss: 2.8321(2.4716)
+Epoch: [4][0/943] Elapsed 0m 0s (remain 9m 4s) Loss: 2.6478(2.6478) Grad: 14.6373  LR: 0.004931
+Epoch: [4][100/943] Elapsed 0m 12s (remain 1m 40s) Loss: 2.5790(2.6054) Grad: 9.7972  LR: 0.004931
+Epoch: [4][200/943] Elapsed 0m 22s (remain 1m 22s) Loss: 2.4494(2.6180) Grad: 12.2104  LR: 0.004931
+Epoch: [4][300/943] Elapsed 0m 33s (remain 1m 11s) Loss: 2.4972(2.6143) Grad: 11.6798  LR: 0.004931
+Epoch: [4][400/943] Elapsed 0m 44s (remain 0m 59s) Loss: 2.6530(2.6128) Grad: 13.0437  LR: 0.004931
+Epoch: [4][500/943] Elapsed 0m 54s (remain 0m 47s) Loss: 2.8162(2.6159) Grad: 25.3357  LR: 0.004931
+Epoch: [4][600/943] Elapsed 1m 5s (remain 0m 37s) Loss: 3.5575(2.6259) Grad: 37.6539  LR: 0.004931
+Epoch: [4][700/943] Elapsed 1m 16s (remain 0m 26s) Loss: 2.7270(2.6299) Grad: 40.5064  LR: 0.004931
+Epoch: [4][800/943] Elapsed 1m 26s (remain 0m 15s) Loss: 2.6503(2.6472) Grad: 12.3100  LR: 0.004931
+Epoch: [4][900/943] Elapsed 1m 36s (remain 0m 4s) Loss: 2.4660(2.6431) Grad: 8.9332  LR: 0.004931
+Epoch: [4][942/943] Elapsed 1m 41s (remain 0m 0s) Loss: 2.7116(2.6425) Grad: 17.8405  LR: 0.004931
+EVAL: [0/236] Elapsed 0m 0s (remain 2m 29s) Loss: 2.8150(2.8150)
+EVAL: [100/236] Elapsed 0m 10s (remain 0m 14s) Loss: 2.5767(2.5711)
+EVAL: [200/236] Elapsed 0m 20s (remain 0m 3s) Loss: 2.6379(2.6053)
+Epoch 4 - avg_train_loss: 2.6425  avg_val_loss: 2.5953  time: 126s
+Epoch 4 - MAE Score (without expiratory phase): 1.0983
+EVAL: [235/236] Elapsed 0m 23s (remain 0m 0s) Loss: 2.8859(2.5953)
+Epoch: [5][0/943] Elapsed 0m 0s (remain 11m 21s) Loss: 2.5154(2.5154) Grad: 30.1799  LR: 0.004887
+Epoch: [5][100/943] Elapsed 0m 12s (remain 1m 45s) Loss: 2.5617(2.5423) Grad: 11.7660  LR: 0.004887
+Epoch: [5][200/943] Elapsed 0m 23s (remain 1m 26s) Loss: 2.4699(2.5439) Grad: 31.0948  LR: 0.004887
+Epoch: [5][300/943] Elapsed 0m 33s (remain 1m 11s) Loss: 2.1928(2.5321) Grad: 25.3837  LR: 0.004887
+Epoch: [5][400/943] Elapsed 0m 44s (remain 1m 0s) Loss: 2.2731(2.5324) Grad: 18.1882  LR: 0.004887
+Epoch: [5][500/943] Elapsed 0m 55s (remain 0m 48s) Loss: 2.6261(2.5292) Grad: 17.7375  LR: 0.004887
+Epoch: [5][600/943] Elapsed 1m 5s (remain 0m 37s) Loss: 2.4684(2.5170) Grad: 11.1591  LR: 0.004887
+Epoch: [5][700/943] Elapsed 1m 15s (remain 0m 26s) Loss: 2.7410(2.5051) Grad: 30.6838  LR: 0.004887
+Epoch: [5][800/943] Elapsed 1m 26s (remain 0m 15s) Loss: 2.6664(2.4972) Grad: 19.1778  LR: 0.004887
+Epoch: [5][900/943] Elapsed 1m 37s (remain 0m 4s) Loss: 2.7964(2.4969) Grad: 40.0713  LR: 0.004887
+Epoch: [5][942/943] Elapsed 1m 41s (remain 0m 0s) Loss: 2.8783(2.4997) Grad: 27.1932  LR: 0.004887
+EVAL: [0/236] Elapsed 0m 0s (remain 2m 10s) Loss: 2.6447(2.6447)
+EVAL: [100/236] Elapsed 0m 11s (remain 0m 15s) Loss: 2.2148(2.3322)
+EVAL: [200/236] Elapsed 0m 21s (remain 0m 3s) Loss: 2.3214(2.3651)
+Epoch 5 - avg_train_loss: 2.4997  avg_val_loss: 2.3587  time: 126s
+Epoch 5 - MAE Score (without expiratory phase): 0.9921
+Epoch 5 - Save Best Score: 0.9921 Model
+EVAL: [235/236] Elapsed 0m 24s (remain 0m 0s) Loss: 2.3581(2.3587)
+========== fold: 3 result ==========
+Score (without expiratory phase): 0.9921
+========== fold: 4 training ==========
+init LSTM(64, 64, batch_first=True, dropout=0.2, bidirectional=True)
+Epoch: [1][0/943] Elapsed 0m 0s (remain 9m 39s) Loss: 45.2979(45.2979) Grad: 33.4780  LR: 0.005000
+Epoch: [1][100/943] Elapsed 0m 10s (remain 1m 31s) Loss: 8.3300(18.4581) Grad: 12.5603  LR: 0.005000
+Epoch: [1][200/943] Elapsed 0m 22s (remain 1m 24s) Loss: 4.9874(12.4495) Grad: 19.5431  LR: 0.005000
+Epoch: [1][300/943] Elapsed 0m 33s (remain 1m 12s) Loss: 4.1149(9.8848) Grad: 10.5619  LR: 0.005000
+Epoch: [1][400/943] Elapsed 0m 44s (remain 0m 59s) Loss: 3.7940(8.4450) Grad: 9.8220  LR: 0.005000
+Epoch: [1][500/943] Elapsed 0m 55s (remain 0m 48s) Loss: 3.9558(7.5059) Grad: 39.0615  LR: 0.005000
+Epoch: [1][600/943] Elapsed 1m 5s (remain 0m 37s) Loss: 3.9673(6.8633) Grad: 36.3460  LR: 0.005000
+Epoch: [1][700/943] Elapsed 1m 16s (remain 0m 26s) Loss: 3.5602(6.3792) Grad: 23.1641  LR: 0.005000
+Epoch: [1][800/943] Elapsed 1m 27s (remain 0m 15s) Loss: 3.7105(5.9927) Grad: 29.0031  LR: 0.005000
+Epoch: [1][900/943] Elapsed 1m 37s (remain 0m 4s) Loss: 2.9156(5.6928) Grad: 9.0125  LR: 0.005000
+Epoch: [1][942/943] Elapsed 1m 41s (remain 0m 0s) Loss: 3.5016(5.5815) Grad: 20.7085  LR: 0.005000
+EVAL: [0/236] Elapsed 0m 0s (remain 1m 59s) Loss: 3.0697(3.0697)
+EVAL: [100/236] Elapsed 0m 10s (remain 0m 13s) Loss: 3.2656(3.0890)
+EVAL: [200/236] Elapsed 0m 20s (remain 0m 3s) Loss: 3.0962(3.0853)
+EVAL: [235/236] Elapsed 0m 24s (remain 0m 0s) Loss: 3.0538(3.0936)
+Epoch 1 - avg_train_loss: 5.5815  avg_val_loss: 3.0936  time: 126s
+Epoch 1 - MAE Score (without expiratory phase): 1.2603
+Epoch 1 - Save Best Score: 1.2603 Model
+Epoch: [2][0/943] Elapsed 0m 0s (remain 9m 18s) Loss: 2.9929(2.9929) Grad: 39.3981  LR: 0.004990
+Epoch: [2][100/943] Elapsed 0m 11s (remain 1m 33s) Loss: 3.0045(3.2324) Grad: 13.4152  LR: 0.004990
+Epoch: [2][200/943] Elapsed 0m 22s (remain 1m 24s) Loss: 2.4455(3.1504) Grad: 17.1731  LR: 0.004990
+Epoch: [2][300/943] Elapsed 0m 33s (remain 1m 11s) Loss: 2.8837(3.1079) Grad: 11.4147  LR: 0.004990
+Epoch: [2][400/943] Elapsed 0m 43s (remain 0m 59s) Loss: 2.9748(3.0857) Grad: 8.7173  LR: 0.004990
+Epoch: [2][500/943] Elapsed 0m 54s (remain 0m 48s) Loss: 3.4812(3.0729) Grad: 21.0250  LR: 0.004990
+Epoch: [2][600/943] Elapsed 1m 5s (remain 0m 37s) Loss: 2.7457(3.0592) Grad: 33.9956  LR: 0.004990
+Epoch: [2][700/943] Elapsed 1m 15s (remain 0m 26s) Loss: 2.8470(3.0675) Grad: 12.8584  LR: 0.004990
+Epoch: [2][800/943] Elapsed 1m 26s (remain 0m 15s) Loss: 3.0329(3.0427) Grad: 9.0099  LR: 0.004990
+Epoch: [2][900/943] Elapsed 1m 37s (remain 0m 4s) Loss: 2.6187(3.0345) Grad: 17.7010  LR: 0.004990
+Epoch: [2][942/943] Elapsed 1m 41s (remain 0m 0s) Loss: 3.0058(3.0284) Grad: 26.5442  LR: 0.004990
+EVAL: [0/236] Elapsed 0m 0s (remain 2m 24s) Loss: 2.6137(2.6137)
+EVAL: [100/236] Elapsed 0m 9s (remain 0m 13s) Loss: 2.5048(2.6256)
+EVAL: [200/236] Elapsed 0m 20s (remain 0m 3s) Loss: 2.6236(2.6196)
+Epoch 2 - avg_train_loss: 3.0284  avg_val_loss: 2.6270  time: 125s
+Epoch 2 - MAE Score (without expiratory phase): 1.1149
+Epoch 2 - Save Best Score: 1.1149 Model
+EVAL: [235/236] Elapsed 0m 23s (remain 0m 0s) Loss: 2.4716(2.6270)
+Epoch: [3][0/943] Elapsed 0m 0s (remain 8m 16s) Loss: 2.5551(2.5551) Grad: 14.3170  LR: 0.004966
+Epoch: [3][100/943] Elapsed 0m 11s (remain 1m 32s) Loss: 2.8863(2.8120) Grad: 32.5278  LR: 0.004966
+Epoch: [3][200/943] Elapsed 0m 22s (remain 1m 23s) Loss: 2.9890(2.8225) Grad: 30.2722  LR: 0.004966
+Epoch: [3][300/943] Elapsed 0m 33s (remain 1m 11s) Loss: 2.9844(2.8052) Grad: 21.1047  LR: 0.004966
+Epoch: [3][400/943] Elapsed 0m 43s (remain 0m 59s) Loss: 2.9264(2.8052) Grad: 21.2567  LR: 0.004966
+Epoch: [3][500/943] Elapsed 0m 54s (remain 0m 48s) Loss: 2.3083(2.8027) Grad: 15.2262  LR: 0.004966
+Epoch: [3][600/943] Elapsed 1m 6s (remain 0m 37s) Loss: 2.4285(2.7872) Grad: 19.5380  LR: 0.004966
+Epoch: [3][700/943] Elapsed 1m 16s (remain 0m 26s) Loss: 3.0981(2.7740) Grad: 11.8148  LR: 0.004966
+Epoch: [3][800/943] Elapsed 1m 27s (remain 0m 15s) Loss: 2.2851(2.7623) Grad: 13.7010  LR: 0.004966
+Epoch: [3][900/943] Elapsed 1m 38s (remain 0m 4s) Loss: 3.0563(2.7536) Grad: 25.1082  LR: 0.004966
+Epoch: [3][942/943] Elapsed 1m 42s (remain 0m 0s) Loss: 2.6746(2.7549) Grad: 26.6337  LR: 0.004966
+EVAL: [0/236] Elapsed 0m 0s (remain 2m 32s) Loss: 2.5758(2.5758)
+EVAL: [100/236] Elapsed 0m 10s (remain 0m 14s) Loss: 2.3774(2.4867)
+EVAL: [200/236] Elapsed 0m 20s (remain 0m 3s) Loss: 2.7211(2.4787)
+EVAL: [235/236] Elapsed 0m 23s (remain 0m 0s) Loss: 2.2473(2.4813)
+Epoch 3 - avg_train_loss: 2.7549  avg_val_loss: 2.4813  time: 127s
+Epoch 3 - MAE Score (without expiratory phase): 1.0547
+Epoch 3 - Save Best Score: 1.0547 Model
+Epoch: [4][0/943] Elapsed 0m 0s (remain 7m 52s) Loss: 2.9002(2.9002) Grad: 16.9299  LR: 0.004931
+Epoch: [4][100/943] Elapsed 0m 11s (remain 1m 39s) Loss: 2.5169(2.8339) Grad: 22.1742  LR: 0.004931
+Epoch: [4][200/943] Elapsed 0m 22s (remain 1m 22s) Loss: 2.2416(2.7149) Grad: 19.7739  LR: 0.004931
+Epoch: [4][300/943] Elapsed 0m 33s (remain 1m 11s) Loss: 2.6376(2.6780) Grad: 12.8748  LR: 0.004931
+Epoch: [4][400/943] Elapsed 0m 44s (remain 1m 0s) Loss: 2.5663(2.6679) Grad: 21.2126  LR: 0.004931
+Epoch: [4][500/943] Elapsed 0m 54s (remain 0m 48s) Loss: 2.2725(2.6444) Grad: 18.0391  LR: 0.004931
+Epoch: [4][600/943] Elapsed 1m 5s (remain 0m 37s) Loss: 2.6521(2.6178) Grad: 11.5431  LR: 0.004931
+Epoch: [4][700/943] Elapsed 1m 16s (remain 0m 26s) Loss: 2.5078(2.6126) Grad: 15.7859  LR: 0.004931
+Epoch: [4][800/943] Elapsed 1m 27s (remain 0m 15s) Loss: 2.7093(2.6066) Grad: 25.4587  LR: 0.004931
+Epoch: [4][900/943] Elapsed 1m 38s (remain 0m 4s) Loss: 2.6464(2.6021) Grad: 14.7322  LR: 0.004931
+Epoch: [4][942/943] Elapsed 1m 42s (remain 0m 0s) Loss: 2.4434(2.5983) Grad: 12.3002  LR: 0.004931
+EVAL: [0/236] Elapsed 0m 0s (remain 2m 19s) Loss: 2.1728(2.1728)
+EVAL: [100/236] Elapsed 0m 10s (remain 0m 14s) Loss: 2.3433(2.2624)
+EVAL: [200/236] Elapsed 0m 20s (remain 0m 3s) Loss: 2.4205(2.2500)
+Epoch 4 - avg_train_loss: 2.5983  avg_val_loss: 2.2532  time: 126s
+Epoch 4 - MAE Score (without expiratory phase): 0.9496
+Epoch 4 - Save Best Score: 0.9496 Model
+EVAL: [235/236] Elapsed 0m 23s (remain 0m 0s) Loss: 2.1690(2.2532)
+Epoch: [5][0/943] Elapsed 0m 0s (remain 13m 56s) Loss: 2.4709(2.4709) Grad: 8.5562  LR: 0.004887
+Epoch: [5][100/943] Elapsed 0m 12s (remain 1m 45s) Loss: 2.1963(2.5628) Grad: 16.4069  LR: 0.004887
+Epoch: [5][200/943] Elapsed 0m 22s (remain 1m 23s) Loss: 2.2740(2.5800) Grad: 14.0986  LR: 0.004887
+Epoch: [5][300/943] Elapsed 0m 33s (remain 1m 12s) Loss: 2.3301(2.5595) Grad: 14.4126  LR: 0.004887
+Epoch: [5][400/943] Elapsed 0m 44s (remain 0m 59s) Loss: 2.3990(2.5247) Grad: 15.3122  LR: 0.004887
+Epoch: [5][500/943] Elapsed 0m 55s (remain 0m 48s) Loss: 2.5839(2.5208) Grad: 14.3186  LR: 0.004887
+Epoch: [5][600/943] Elapsed 1m 5s (remain 0m 37s) Loss: 3.0134(2.5096) Grad: 23.8546  LR: 0.004887
+Epoch: [5][700/943] Elapsed 1m 16s (remain 0m 26s) Loss: 2.7673(2.5045) Grad: 27.0054  LR: 0.004887
+Epoch: [5][800/943] Elapsed 1m 26s (remain 0m 15s) Loss: 2.5663(2.4987) Grad: 10.9596  LR: 0.004887
+Epoch: [5][900/943] Elapsed 1m 37s (remain 0m 4s) Loss: 2.7366(2.4983) Grad: 23.0687  LR: 0.004887
+Epoch: [5][942/943] Elapsed 1m 41s (remain 0m 0s) Loss: 2.3198(2.4963) Grad: 15.1147  LR: 0.004887
+EVAL: [0/236] Elapsed 0m 0s (remain 2m 49s) Loss: 2.2220(2.2220)
+EVAL: [100/236] Elapsed 0m 10s (remain 0m 14s) Loss: 2.2584(2.2610)
+EVAL: [200/236] Elapsed 0m 20s (remain 0m 3s) Loss: 2.4466(2.2520)
+Epoch 5 - avg_train_loss: 2.4963  avg_val_loss: 2.2549  time: 125s
+Epoch 5 - MAE Score (without expiratory phase): 0.9506
+EVAL: [235/236] Elapsed 0m 23s (remain 0m 0s) Loss: 2.1334(2.2549)
+========== fold: 4 result ==========
+Score (without expiratory phase): 0.9496
+========== CV ==========
+Score (without expiratory phase): 1.0553
+init LSTM(64, 64, batch_first=True, dropout=0.2, bidirectional=True)
+init LSTM(64, 64, batch_first=True, dropout=0.2, bidirectional=True)
+init LSTM(64, 64, batch_first=True, dropout=0.2, bidirectional=True)
+init LSTM(64, 64, batch_first=True, dropout=0.2, bidirectional=True)
+init LSTM(64, 64, batch_first=True, dropout=0.2, bidirectional=True)

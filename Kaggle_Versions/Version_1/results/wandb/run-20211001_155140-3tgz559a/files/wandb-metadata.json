@@ -1,0 +1,22 @@
+{
+    "os": "Linux-5.4.144+-x86_64-with-debian-buster-sid",
+    "python": "3.7.10",
+    "heartbeatAt": "2021-10-01T15:51:44.109322",
+    "startedAt": "2021-10-01T15:51:40.679797",
+    "docker": null,
+    "gpu": "Tesla P100-PCIE-16GB",
+    "gpu_count": 1,
+    "cpu_count": 2,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/tmp/tmp_8bd8n14.json",
+        "--HistoryManager.hist_file=:memory:"
+    ],
+    "state": "running",
+    "program": "kaggle.ipynb",
+    "root": "/kaggle/working",
+    "host": "b7d5c83cea20",
+    "username": "root",
+    "executable": "/opt/conda/bin/python"
+}

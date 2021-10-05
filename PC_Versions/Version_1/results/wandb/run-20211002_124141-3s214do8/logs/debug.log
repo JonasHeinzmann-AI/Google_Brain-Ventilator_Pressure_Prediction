@@ -1,0 +1,18 @@
+2021-10-02 12:41:42,003 INFO    MainThread:33256 [wandb_setup.py:_flush():69] setting env: {}
+2021-10-02 12:41:42,003 INFO    MainThread:33256 [wandb_setup.py:_flush():69] setting login settings: {'anonymous': 'must'}
+2021-10-02 12:41:42,003 INFO    MainThread:33256 [wandb_init.py:_log_setup():357] Logging user logs to C:\Users\heinz\Documents\GitHub\Google_Brain-Ventilator_Pressure_Prediction\wandb\run-20211002_124141-3s214do8\logs\debug.log
+2021-10-02 12:41:42,004 INFO    MainThread:33256 [wandb_init.py:_log_setup():358] Logging internal logs to C:\Users\heinz\Documents\GitHub\Google_Brain-Ventilator_Pressure_Prediction\wandb\run-20211002_124141-3s214do8\logs\debug-internal.log
+2021-10-02 12:41:42,004 INFO    MainThread:33256 [wandb_init.py:_jupyter_setup():307] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000025F6F07EE20>
+2021-10-02 12:41:42,004 INFO    MainThread:33256 [wandb_init.py:init():390] calling init triggers
+2021-10-02 12:41:42,004 INFO    MainThread:33256 [wandb_init.py:init():395] wandb.init called with sweep_config: {}
+config: {'T_max': 50, '_wandb_kernel': 'nakama', 'apex': False, 'batch_scheduler': False, 'batch_size': 128, 'cate_seq_cols': ['R', 'C'], 'competition': 'ventilator', 'cont_seq_cols': ['time_step', 'u_in', 'u_out', 'breath_time', 'u_in_time'], 'epochs': 6, 'gradient_accumulation_steps': 1, 'hidden_size': 64, 'inference': True, 'lr': 0.007, 'max_grad_norm': 1000, 'min_lr': 2e-06, 'model_name': 'rnn', 'n_fold': 5, 'num_workers': 10, 'print_freq': 100, 'scheduler': 'CosineAnnealingLR', 'train': True, 'trn_fold': [0, 1, 2, 3, 4], 'weight_decay': 1e-06}
+2021-10-02 12:41:42,005 INFO    MainThread:33256 [wandb_init.py:init():435] starting backend
+2021-10-02 12:41:42,005 INFO    MainThread:33256 [backend.py:_multiprocessing_setup():70] multiprocessing start_methods=spawn, using: spawn
+2021-10-02 12:41:42,011 INFO    MainThread:33256 [backend.py:ensure_launched():135] starting backend process...
+2021-10-02 12:41:42,130 INFO    MainThread:33256 [backend.py:ensure_launched():139] started backend process with pid: 12992
+2021-10-02 12:41:42,131 INFO    MainThread:33256 [wandb_init.py:init():440] backend started and connected
+2021-10-02 12:41:42,147 INFO    MainThread:33256 [wandb_run.py:_label_probe_notebook():833] probe notebook
+2021-10-02 12:41:42,148 INFO    MainThread:33256 [wandb_init.py:init():499] updated telemetry
+2021-10-02 12:41:42,149 INFO    MainThread:33256 [wandb_init.py:init():522] communicating current version
+2021-10-02 12:41:44,851 INFO    MainThread:33256 [wandb_init.py:init():527] got version response 
+2021-10-02 12:41:44,851 INFO    MainThread:33256 [wandb_init.py:init():535] communicating run to backend with 30 second timeout

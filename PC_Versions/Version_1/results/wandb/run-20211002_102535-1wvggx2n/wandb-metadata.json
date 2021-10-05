@@ -1,0 +1,22 @@
+{
+    "root": "C:\\Users\\heinz\\Documents\\GitHub\\Google_Brain-Ventilator_Pressure_Prediction",
+    "program": "<python with no main file>",
+    "codeSaved": true,
+    "startedAt": "2021-10-02T10:25:34.973884",
+    "host": "DESKTOP-CRPR36T",
+    "username": "heinz",
+    "executable": "C:\\Users\\heinz\\anaconda3\\python.exe",
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.8.5",
+    "cpu_count": 12,
+    "args": [
+        "-f",
+        "C:\\Users\\heinz\\AppData\\Roaming\\jupyter\\runtime\\kernel-26b506e5-e184-4995-96ae-126d35131af0.json"
+    ],
+    "state": "running",
+    "jobType": "train",
+    "mode": "run",
+    "name": "rnn",
+    "project": "Ventilator-Pressure-Public_Jupyter-Notebook",
+    "heartbeatAt": "2021-10-02T10:25:36.469924"
+}
